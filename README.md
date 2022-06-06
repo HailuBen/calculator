@@ -1,2 +1,2 @@
 # calculator
-Creating a calculator using array methods in JavaScript.
+Creating a calculator in JavaScript.
