@@ -4,50 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
     <title>Calculator</title>
 </head>
-<body style="background-color: rgba(55, 55, 55, 0.87); color: white; padding: 1em 4em;">
+<body>
     <h1>Calculator</h1>
 
-    <!-- JS -->
-    <script>
+    <div class="container">
+        <div id="add">
+            <u><h3>Addition</h3></u>
+            <input type="number" name="addendA" id="addendA" max="100">
 
-        const add = function() {
-            
-        };
+            <p><b>+</b></p>
 
-        const subtract = function() {
-            
-        };
+            <input type="number" name="addendB" id="addendB" max="100">
+            <br>
+            <input type="button" value="=" id="sumEquals">
+            <div>
+                <h4 id="displaySum">Sum: </h4>
+            </div>
+        </div>
+    </div>
 
-        const sum = function() {
-            
-        };
-
-        const multiply = function() {
-
-        };
-
-        const power = function() {
-            
-        };
-
-        const factorial = function() {
-            
-        };
-
-
-
-        // Do not edit below this line
-        module.exports = {
-        add,
-        subtract,
-        sum,
-        multiply,
-        power,
-        factorial
-        };        
-
-    </script>
 </body>
 </html>
