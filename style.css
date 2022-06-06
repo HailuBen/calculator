@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 html,body{
     padding: 0;
     margin: 0;
@@ -12,19 +15,27 @@ body{
 }
 .container{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-area: content;
     align-items: center;
+}
+.operation{
+    padding-top: 2em;
 }
 input{
     margin: 0;
 }
-#addendA,#addendB{
+.box{
     width: 7.1em; 
 }
 p{
     font-size: larger; 
     margin:0 2.4em;
 }
-#sumEquals{
+.button{
     margin: 1em 0;
+}
+.answer{
+    margin: 0;
 }
