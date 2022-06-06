@@ -12,19 +12,31 @@
     <h1>Calculator</h1>
 
     <div class="container">
-        <div id="add">
+        <div class="operation"  id="add">
             <u><h3>Addition</h3></u>
-            <input type="number" name="addendA" id="addendA" max="100">
+            <input class="box" type="number" name="addendA" id="addendA">
 
             <p><b>+</b></p>
 
-            <input type="number" name="addendB" id="addendB" max="100">
+            <input class="box" type="number" name="addendB" id="addendB">
             <br>
-            <input type="button" value="=" id="sumEquals">
-            <div>
-                <h4 id="displaySum">Sum: </h4>
+            <input class="button" type="button" value="=" id="sumEquals">
+            <div class="answer">
+                <h4 id="displaySum"></h4>
             </div>
         </div>
+        <div class="operation" id="subtract">
+            <u><h3>Subtraction</h3></u>
+            <input class="box" type="number" name="subtractA" id="subtractA">
+            <p><b>-</b></p>
+            <input class="box" type="number" name="subtractB" id="subtractB">
+            <br>
+            <input class="button" type="button" value="=" id="diffEquals">
+            <div>
+                <h4 id="displayDiff"></h4>
+            </div>
+        </div>
+
     </div>
 
 </body>
