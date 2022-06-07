@@ -18,14 +18,14 @@ function setUpEvents(){
         let a = document.getElementById("addendA").value;
         let b = document.getElementById("addendB").value;
         let sum = parseInt(a)+parseInt(b);
-        displaySum.innerHTML="Sum = "+sum;             
+        displaySum.innerHTML="Sum <br>= "+sum;             
     };
 
     function subtract(){
         let a = document.getElementById("subtractA").value;
         let b = document.getElementById("subtractB").value;
         let diff = parseInt(a)-parseInt(b);
-        displayDiff.innerHTML="Difference = "+diff;
+        displayDiff.innerHTML="Difference <br>= "+diff;
     }
 
     function multiply(){
