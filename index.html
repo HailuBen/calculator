@@ -12,32 +12,52 @@
     <title>Calculator</title>
 </head>
 <body>
-    <h1>Calculator</h1>
-
     <div class="container">
-        <div class="operation"  id="add">
-            <u><h3>Addition</h3></u>
-            <input class="box" type="number" name="addendA" id="addendA">
+        <h1 class="title">Calculator</h1>
+        <div class="grid-wrap">
+            <div class="operation"  id="add">
+                <u><h3 class="operation-title">+Add+</h3></u>
 
-            <p><b>+</b></p>
+                <input class="box" type="number" name="addendA" id="addendA">
+                <p><b>+</b></p>
+                <input class="box" type="number" name="addendB" id="addendB">
 
-            <input class="box" type="number" name="addendB" id="addendB">
-            <br>
-            <input class="button" type="button" value="=" id="sumEquals">
-            <div class="answer">
-                <h4 id="displaySum"></h4>
+                <input class="button" type="button" value="=" id="sumEquals">
+
+                <h3 class="answer" id="displaySum">
+                    Sum:
+                </h3>    
             </div>
-        </div>
-        <div class="operation" id="subtract">
-            <u><h3>Subtraction</h3></u>
-            <input class="box" type="number" name="subtractA" id="subtractA">
-            <p><b>-</b></p>
-            <input class="box" type="number" name="subtractB" id="subtractB">
-            <br>
-            <input class="button" type="button" value="=" id="diffEquals">
-            <div>
-                <h4 id="displayDiff"></h4>
+
+            <div class="operation" id="subtract">
+                <u><h3 class="operation-title">-Subtract-</h3></u>
+
+                <input class="box" type="number" name="subtractA" id="subtractA">
+                <p><b>-</b></p>
+                <input class="box" type="number" name="subtractB" id="subtractB">
+
+                <input class="button" type="button" value="=" id="diffEquals">
+
+                <h3 class="answer"  id="displayDiff">
+                    Difference:
+                </h3>    
             </div>
+
+            <div class="operation">
+                <u><h3 class="operation-title">*Multiply*</h3></u>
+
+            </div>
+
+            <div class="operation">
+                <u><h3 class="operation-title">^Power^</h3></u>
+
+            </div>
+
+            <div class="operation">
+                <u><h3 class="operation-title">%Factorial%</h3></u>
+
+            </div>
+            
         </div>
 
     </div>
